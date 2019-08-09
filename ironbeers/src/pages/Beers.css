@@ -1,0 +1,20 @@
+.title {
+    margin: 20px;
+    text-align: center;
+}
+
+.beerListItem {
+    display: flex;
+    border-top: solid;
+    border-color: lightgray;
+
+}
+
+.list-img {
+    height: 150px;
+    margin: 15px;
+}
+
+.imageDiv {
+    width: 30%;
+}

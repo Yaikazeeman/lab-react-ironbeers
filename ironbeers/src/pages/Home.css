@@ -1,0 +1,29 @@
+.homeDiv {
+    width: 100vw;
+}
+
+.link-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.link-container img {
+    width: 100%;
+}
+
+.link-container h2 {
+    margin: 5px 10px;
+    text-decoration: none;
+    color: gray;
+}
+
+.link-container p {
+    margin: 5px 10px 25px 10px;
+    text-decoration: none;
+    color: gray;
+}
+
+.theLink {
+    text-decoration: none;
+}
