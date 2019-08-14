@@ -1,11 +1,17 @@
 import React, { Component } from 'react'
+import BeerInfo from '../components/BeerInfo'
 
-export default class RandomBeer extends Component {
+class RandomBeer extends Component {
     render() {
+
+        var foundBeer = this.props.beers[Math.floor(Math.random()*this.props.beers.length)];
+
         return (
             <div>
-                <h2>Random beer page</h2>
+                <BeerInfo foundBeer={foundBeer} />
             </div>
         )
     }
 }
+
+export default RandomBeer;

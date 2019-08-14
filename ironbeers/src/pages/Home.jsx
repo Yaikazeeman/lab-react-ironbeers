@@ -7,21 +7,21 @@ export default function Home() {
         <div className="homeDiv">
             <Link key="allBeers" className="theLink" to='/beers'>
                 <div className="link-container">
-                    <img src="/img/beers.png"/>
+                    <img src="/img/beers.png" alt="something" />
                     <h2>All beers</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                 </div>
             </Link>
             <Link key="randomBeer" className="theLink" to='/random-beer'>
                 <div className="link-container">
-                    <img src="/img/random-beer.png" />
+                    <img src="/img/random-beer.png" alt="something" />
                     <h2>Random beer</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                 </div>
             </Link>
             <Link key="newBeer" className="theLink" to='new-beer'>
                 <div className="link-container">
-                    <img src="/img/new-beer.png" />
+                    <img src="/img/new-beer.png" alt="something" />
                     <h2>New beer</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </p>
                 </div>

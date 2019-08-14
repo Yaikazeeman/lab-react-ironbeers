@@ -1,15 +1,15 @@
 import React, { Component } from 'react'
 import './BeerInfo.css';
 
-export default class BeerInfo extends Component {
+class BeerInfo extends Component {
     render() {
         
-    console.log(this.props)
+    // console.log(this.props)
         return (
             <div className="beerInfo-container">
                 <h2>Beer information</h2>
                 <div>
-                    <img className="img-BeerInfo" src={this.props.foundBeer.image_url} />
+                    <img className="img-BeerInfo" alt="something"  src={this.props.foundBeer.image_url} />
                 </div>
                 <div>
                     <h2>{this.props.foundBeer.name}</h2>
@@ -21,3 +21,6 @@ export default class BeerInfo extends Component {
         )
     }
 }
+
+export default BeerInfo;
+
